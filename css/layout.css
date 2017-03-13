@@ -1,0 +1,97 @@
+body,
+html
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(/Users/alexey/Desktop/PS-15-1/Web-design/lab1/img/light-blue-waver.png);
+
+}
+
+div {
+
+}
+
+h1{
+	color:blue;
+	padding-left: 20px;
+	padding-top: 10px;
+	
+}
+
+#wrap{
+	width: 750px;
+	margin: 0 auto;
+
+
+}
+
+
+#header{
+	background-image: url(/Users/alexey/Desktop/PS-15-1/Web-design/lab1/img/header.png);
+	-moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius:10px 10px 0 0;;	
+    border-radius: 10px 10px 10px 10px;
+    height: 70px;
+
+}
+
+#toolbar{
+	margin-top: 3px;
+	margin-bottom: 10px;
+}
+#leftside{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	position: fixed;
+
+}
+
+#mainside{
+	width: 55;
+	float: center;
+	padding-left: 210px;
+	padding-bottom: 50px;
+
+	
+}
+
+#footer{
+	position: fixed;
+	bottom: 0px;
+	width: 750px;
+	background-image: url(/Users/alexey/Desktop/PS-15-1/Web-design/lab1/img/footer.jpeg);
+	-moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -khtml-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.post {
+	font-size: 12pt;
+	text-align:justify;
+
+}
+.post img {
+	float: left;
+	width: 250px;
+	height: 200px;
+	padding-right: 5px;
+	-moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.post:firs-line{
+	padding-left: 10px;
+}
+
+.readmore{
+	float: right;
+}

@@ -1,0 +1,67 @@
+body {
+
+	background: url("../img/bg.jpg");
+	background-repeat: repeat;
+	font-family: Arial;
+	color:#DADADA;
+	font-size: 14pt;
+	text-align:justify;
+
+}
+p {
+	text-indent: 25px;
+	font-family: Arial;
+	font-size: 14pt;
+	text-align:justify;
+}
+h1{
+	color:lightgreen;
+}
+p:first-letter{
+	margin-left: 20px;
+}
+
+
+#include{
+	font-size: 16pt;
+	text-align: right;
+	font-style: italic;
+	 line-height: 1.5;
+}
+
+#include p{
+	
+}
+#include:first-letter{
+	font-size: 150%;
+}
+p.qt {
+	text-align:center;
+	color:#FF6600;
+}
+
+img.first{
+	display: block;
+	float:left;
+	margin:0 0;
+	width: 450px;
+	height: 300px;
+	padding-right: 10px;
+
+}
+img.second{
+	display: block;
+	float:right;
+	margin:1 1;
+	padding-left: 10px;
+	width: 450px;
+	height: 300px;
+	
+}
+a:link {
+	color: green;
+}
+a:visited{
+	color:red;
+}
+

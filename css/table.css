@@ -1,0 +1,10 @@
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+width: 600px;
+}
+
+th{
+border: 1px solid;
+border-color:grey;
+}
